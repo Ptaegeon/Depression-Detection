@@ -77,7 +77,11 @@
 # Traning methods
 - Imbalanced data 
   - augmentation : oversampling with augmentation
-- Lr : 1e-4
-- Bs = 16
+- Lr : 1e-5
+- Bs = 24
 
 # Result
+- Depression detection 
+  - Depressed : PHQ-8 score > 10, Not-Depressed : PHQ-8 score <= 10
+  - F1-score : 0.82
+  - MAE Loss : 5.355
